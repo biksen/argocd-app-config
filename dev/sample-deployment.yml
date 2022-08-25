@@ -14,7 +14,7 @@ spec:
         app: sample-app
     spec:
       containers:
-      - image: biksen/hello-world:1.0
+      - image: nanajanashia/argocd-app:1.2
         name: sample-app
         ports:
         - containerPort: 8080
